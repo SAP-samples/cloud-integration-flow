@@ -13,7 +13,7 @@
     <properties>
         <camel.version>2.24.2</camel.version>
         <guava.version>19.0</guava.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <spock.version>2.0-M2-groovy-3.0</spock.version>
         <surefire.version>2.22.2</surefire.version>
         <gmaven.version>1.9.0</gmaven.version>
