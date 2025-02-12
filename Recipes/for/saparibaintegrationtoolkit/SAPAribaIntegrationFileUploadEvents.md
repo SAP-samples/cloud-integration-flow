@@ -221,4 +221,8 @@ Typical issues for file upload:
 - Incorrect event name or operation – in case that you were changing these values, please make sure to use the correct ones according to the latest SAP Ariba documentation
 - SFTP issues – please review the documentation of the SFTP connector
 - Email issues – please review the documentation of the Email connector
+- For Full Load opeartion or 'Load and Delete' operation while running the Import Batch Data task, an additional parameter 'fullload' needs to be sent in the request to Ariba. Eg. 
+  ```
+  <Parameter name="fullload"><value>true</value></Parameter>
+  ```
 
