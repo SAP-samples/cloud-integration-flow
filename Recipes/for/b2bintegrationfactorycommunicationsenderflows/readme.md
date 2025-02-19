@@ -37,3 +37,5 @@ Receives messages via any supported communication protocol, identifies type syst
 ### Step 1a - HTTP Sender 
 Receives messages from sender via HTTP/HTTPS protocol and provides a response in synchronous call, if required. \
  ![input-image](Step_1a_-_HTTP_Sender.png)
+ ### Step 1a - EventMesh+ODATA-GET_Sender 
+ Receives messages from Integration Suite, Event Mesh and subsequently fetches the data from S4HANA using GET, if required. Influence request https://influence.sap.com/sap/ino/#/idea/331262\
